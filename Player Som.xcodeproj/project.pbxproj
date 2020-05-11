@@ -13,6 +13,9 @@
 		58B0159F2469C68600891FAD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B0159D2469C68600891FAD /* Main.storyboard */; };
 		58B015A12469C68900891FAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58B015A02469C68900891FAD /* Assets.xcassets */; };
 		58B015A42469C68900891FAD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58B015A22469C68900891FAD /* LaunchScreen.storyboard */; };
+		58B015AF2469C71900891FAD /* Kai_Engel_-_09_-_Homeroad.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58B015AC2469C71800891FAD /* Kai_Engel_-_09_-_Homeroad.mp3 */; };
+		58B015B02469C71900891FAD /* J_Syreus_Bach_-_Lesser_Faith.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58B015AD2469C71900891FAD /* J_Syreus_Bach_-_Lesser_Faith.mp3 */; };
+		58B015B12469C71900891FAD /* Mid-Air_Machine_-_Ampheral__Text_Notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 58B015AE2469C71900891FAD /* Mid-Air_Machine_-_Ampheral__Text_Notification.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		58B015A02469C68900891FAD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58B015A32469C68900891FAD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		58B015A52469C68900891FAD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58B015AC2469C71800891FAD /* Kai_Engel_-_09_-_Homeroad.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Kai_Engel_-_09_-_Homeroad.mp3"; sourceTree = "<group>"; };
+		58B015AD2469C71900891FAD /* J_Syreus_Bach_-_Lesser_Faith.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "J_Syreus_Bach_-_Lesser_Faith.mp3"; sourceTree = "<group>"; };
+		58B015AE2469C71900891FAD /* Mid-Air_Machine_-_Ampheral__Text_Notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Mid-Air_Machine_-_Ampheral__Text_Notification.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +62,7 @@
 		58B015962469C68600891FAD /* Player Som */ = {
 			isa = PBXGroup;
 			children = (
+				58B015AB2469C6FB00891FAD /* sons */,
 				58B015972469C68600891FAD /* AppDelegate.swift */,
 				58B015992469C68600891FAD /* SceneDelegate.swift */,
 				58B0159B2469C68600891FAD /* ViewController.swift */,
@@ -65,6 +72,16 @@
 				58B015A52469C68900891FAD /* Info.plist */,
 			);
 			path = "Player Som";
+			sourceTree = "<group>";
+		};
+		58B015AB2469C6FB00891FAD /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				58B015AD2469C71900891FAD /* J_Syreus_Bach_-_Lesser_Faith.mp3 */,
+				58B015AC2469C71800891FAD /* Kai_Engel_-_09_-_Homeroad.mp3 */,
+				58B015AE2469C71900891FAD /* Mid-Air_Machine_-_Ampheral__Text_Notification.mp3 */,
+			);
+			path = sons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +142,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58B015AF2469C71900891FAD /* Kai_Engel_-_09_-_Homeroad.mp3 in Resources */,
 				58B015A42469C68900891FAD /* LaunchScreen.storyboard in Resources */,
 				58B015A12469C68900891FAD /* Assets.xcassets in Resources */,
 				58B0159F2469C68600891FAD /* Main.storyboard in Resources */,
+				58B015B12469C71900891FAD /* Mid-Air_Machine_-_Ampheral__Text_Notification.mp3 in Resources */,
+				58B015B02469C71900891FAD /* J_Syreus_Bach_-_Lesser_Faith.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
